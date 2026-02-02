@@ -1,0 +1,58 @@
+ body{
+    font-family: Arial, sans-serif;
+    background-color: silver;
+    font-weight: bold;
+
+ }
+ h1{
+    color:rgb(255, 169, 22);
+ }
+ form{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    max-width: 400px;
+    margin: auto;  /* This is for Centerlize */
+    padding: 25px; /* empty space before start */
+    border-radius: 10px; /*smooth the borders*/
+    box-shadow: 3px 3px 10px; /*border shadow*/ 
+ }
+#InputNumber {
+    width: 82%;
+    text-align: center;
+    margin-left:30px ;
+    font-size: 2em; /*200%*/
+    border: 2px solid;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow:1px 1px black;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.button{
+    margin-left: 146px;
+}
+button{
+    font-family:sans-serif;
+    color:white;
+    margin-top: 15px;
+    font-size: 1.5em;
+    background-color: rgb(255, 169, 22);
+    margin: center;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow:1px 1px black;
+    margin-left:10px;
+    font-weight: bold;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(233, 158, 19);
+}
+#result{
+    color:rgb(0, 0, 0);
+    font-size: 1.35em;
+    font-weight: bold;
+
+}
